@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 
@@ -50,7 +50,6 @@ const ProductCategoryRow: React.FC<{category:string}> = (category) => {
 }
 
 const ProductTable: React.FC<{products:Product[],searchText:string; isOnlyStoked:boolean}> = ({products,searchText,isOnlyStoked}) => {
-    // @ts-ignore
     const rows: any | null | undefined = []
     let lastCategory = ""
     products.forEach((prod)=>{
