@@ -1,0 +1,7 @@
+.Row {
+      border-top: 3px solid #bbb;
+}
+
+.Row:hover {
+      cursor: pointer;
+}

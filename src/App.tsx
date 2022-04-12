@@ -1,7 +1,6 @@
 import React from 'react';
+import { Users, Store } from './components';
 import './App.css';
-import { Store } from './store';
-import { Users } from './users';
 
 interface Product {
     category: string;
