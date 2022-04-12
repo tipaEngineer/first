@@ -5,7 +5,7 @@ module.exports = {
     semi: true,
     trailingComma: 'all',
     arrowParens: 'always',
-    noBracketSpacing: false,
+    bracketSpacing: true,
     overrides: [
         {
             files: '*.{js,jsx,tsx,ts,scss,json,html}',
