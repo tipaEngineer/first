@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Store } from './store';
+import { Users } from './users';
 
 interface Product {
     category: string;
@@ -17,6 +18,7 @@ export const App: React.FC<AppProps> = ({ products }) => {
     return (
         <>
             <Store products={products} />
+            <Users />
         </>
     );
 };
