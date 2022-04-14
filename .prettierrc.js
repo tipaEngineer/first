@@ -6,6 +6,7 @@ module.exports = {
     trailingComma: 'all',
     arrowParens: 'always',
     bracketSpacing: true,
+    autoFixOnSave: true,
     overrides: [
         {
             files: '*.{js,jsx,tsx,ts,scss,json,html}',
