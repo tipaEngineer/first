@@ -3,14 +3,14 @@ import './App.css';
 import { Store } from './store';
 import { Users } from './users';
 
-interface Product {
+export interface Product {
     category: string;
     price: string;
     stocked: boolean;
     name: string;
 }
 
-interface AppProps {
+export interface AppProps {
     products: Array<Product>;
 }
 
